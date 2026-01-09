@@ -42,8 +42,7 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-}
-
+} 
 #hero {
     width: 100%;
     height: 800px;
@@ -53,21 +52,16 @@
     background-position: center;
     background-size: cover;
 
-}
-
+} 
 #hero .hero-section {
     max-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;   
-     
-
-}
-
+} 
 #hero .hero-heading {
     margin-top: 140px ;
-}
-
+} 
 #hero .hero-heading button {
     cursor: pointer;
     display: inline-block;
@@ -108,10 +102,7 @@
     display: flex;
     gap: 20px;
     flex-direction: row;
-
-
-
-}
+} 
 
 #arro-btn {
     display: flex;
@@ -172,7 +163,7 @@
 
 #notes .card .main-card {
     text-align: center;
- 
+    cursor: pointer;
     padding: 50px 20px 50px 20px ;
     max-height: 500px;
     align-content: center;
