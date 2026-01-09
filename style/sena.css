@@ -434,5 +434,5 @@
 #notes .main-card:hover{
     box-shadow: 0 0 20px 2px black ;
     transition: all ease-in 0.5s;
-    transform: scale(1.02);
+    transform: scale(1.025);
 }
