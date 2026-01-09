@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navbar .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    
+}
+
+#navbar .nav-logo {
+    width: 200px;
+
+}
+
+#navbar .nav-container ul {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    gap: 32px;
+    flex-direction: row;
+    max-width: 700px;
+    cursor: pointer;
+
+}
+#navbar   li:hover{
+    color: #469165;
+    font-size: 30px;
+    transition: all ease-in 0.5s;
+}
+#navbar .nav-btn {
+    padding: 15px 23px;
+
+    background-color: #469165;
+    color: #FFFF;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#hero {
+    width: 100%;
+    height: 800px;
+    
+    background: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#hero .hero-section {
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+     
+
+}
+
+#hero .hero-heading {
+    margin-top: 140px ;
+}
+
+#hero .hero-heading button {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 1000px;
+    color: #30B868;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #30B868;
+    padding: 12px 18px;
+}
+
+#hero .hero-container p {
+    font-size: 90px;
+    padding-top: 25px;
+    line-height: 70px;
+    margin: 0 295px;
+}
+
+#hero .hero-container .white {
+    color: white;
+}
+
+#hero .hero-container .green {
+    color: green;
+}
+
+#hero .text-container .text {
+    line-height: 30px;
+    font-size: 20px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+#hero .hero-btn {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+
+
+}
+
+#arro-btn {
+    display: flex;
+    border: none;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+    padding: 12px 16px;
+    color: white;
+    background-color: #30B868;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#hero .hero-btn .arro-btn img {
+    color: white;
+}
+
+#hero .hero-btn .normal-btn {
+    cursor: pointer;
+    background: none;
+    padding: 12px 16px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#notes .notes-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    padding: 70px auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#notes .notes-container h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#notes .notes-container p {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #8e8d8d;
+}
+
+#notes .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px auto;
+    padding-top: 80px;
+    gap: 30px;
+}
+
+#notes .card .main-card {
+    text-align: center;
+ 
+    padding: 50px 20px 50px 20px ;
+    max-height: 500px;
+    align-content: center;
+    box-shadow: 0 0 6px 0px rgb(215, 213, 213);
+}
+
+#notes .main-card h4 {
+    font-size: 35px;
+}
+
+#v .card .main-card p {
+    font-size: 15px;
+    color: #8e8d8d;
+
+}
+
+#notes .card .main-card img {
+    background-color: rgb(251, 68, 7);
+    padding: 18px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+#notes {
+    margin: 0 150px;
+}
+
+#notes .card .main-card h4 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#brain {
+    margin: 0;
+    max-height: 670px;
+    margin-bottom: 120px;
+}
+
+#brain .brain-contain {
+    max-height: 700px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#brain .brain-text {
+    max-width: 800px;
+    height: 1200px;
+    padding-top: 150px;
+    margin-right: 200px;
+
+}
+
+#brain  .brain-text .txt {
+    color: #30B868;
+    font-size: 37px;
+    font-family: 900px;
+    margin-bottom: 10px;
+}
+
+#brain  .brain-text h2 {
+    font-size: 55px;
+    max-width: 500px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+#brain .brain-contain .brain-text .left {
+    line-height: 38px;
+    max-width: 650px;
+    margin-bottom: 35px;
+    font-weight: 800px;
+    color: #8e8d8d;
+    font-size: 25px;
+}
+
+#brain .brain-contain .brain-text .box {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    height: 25px;
+    line-height: 23px;
+    color: #8e8d8d;
+  
+}
+
+#brain .box h4{
+    text-align: center;
+}
+  
+#brain .box .check{
+    
+    width: 30px;
+ 
+    
+}
+#brain .brain-contain .brain-text .right .box {
+
+    margin-top: 20px;
+    align-content: center;
+}
+
+#brain  .right .box span {
+    align-items: center;
+}
+
+#brain .brain-contain .brain-img {
+    /* margin-bottom: 150px; */
+    margin-top: 60px;
+    width: 600px;
+    height: 600px;
+}
+
+#challenge {
+    background: rgba(247, 246, 242, 1);
+    margin: 120px 140px;
+    border-radius: 25px;
+    max-height: 400px;
+
+}
+
+.challenge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+    
+}
+
+.challenge-container h2 {
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 47px;
+    margin-bottom: 20px;
+}
+
+.challenge-container p {
+
+    font-size: 20px;
+    color: #8e8d8d;
+    line-height: 28px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+   
+#challenge .challenge-container .challenge-btn {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+    margin: 15px 0px 10px 0px;
+    
+}
+#challenge .challenge-container .challenge-btn #cla-btn:hover{
+    color: #469165;
+    background-color: #FFFF;
+}
+#challenge .challenge-container .challenge-btn #cla-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 10px 0px 10px 0px;
+    background-color:#469165;
+    color: #FFFF;
+    cursor: pointer;
+}
+#footer {
+    background: rgba(0, 25, 49, 1);
+    height: 370px;
+}
+
+#footer p {
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#footer .footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 105px;
+
+}
+#footer .footer-logo{
+    padding-top: 50px;
+}
+#footer .footer-text h5 {
+    color: #FFFF;
+    font-size: 25px;
+    padding-bottom: 7px;
+}
+
+#footer .footer-text ul {
+    list-style: none;
+    display: flex;
+
+}
+
+#footer .footer-text ul li a img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#btn-hvr:hover{
+    color: hsl(87, 36%, 71%);
+    background-color: #5b6900;
+    padding: 18px 30px;
+    transition: all ease-in 0.3s;
+    box-shadow: 0 0 20px 5px black;
+}
+
+#hero .hero-section .hero-btn img:hover{
+    color: #0a50a5;
+    
+}
+#hero .btn-hovr:hover{
+    color: #30B868;
+    background-color: rgb(116, 3, 3);
+    
+} 
+#hero .hero-btn .image:hover{
+    color: #469165;
+    background-color: #0a50a5;
+}
+#hero .btn-hver:hover{
+    color: #033718;
+    background-color: #dc2222;
+    box-shadow: 2px 2px 30px 5px black ;
+    font-size: 40px;
+}
+#hero  .btn-hover:hover{
+    color: #871010;
+    background-color: #85caa1;
+    font-size: 20px;
+    padding: 18px 30px;
+    transition: all ease-in 0.3s;
+    box-shadow: 2px 2px 30px 5px black ;
+}
+#hero .normal-btn:hover{
+    color: #469165;
+    border: #469165;
+    transform: scale(0.9);
+    transition: all ease-in 0.8s;
+}
+#challenge .challenge-container .challenge-btn #cla-btn:hover{
+    color: white;
+    background-color: #dc2222;
+    font-size: 20px;
+    transition: all ease-in 0.5s; 
+    box-shadow: 2px 2px 30px black;
+
+}
+#notes .main-card:hover{
+    box-shadow: 0 0 20px 2px black ;
+    transition: all ease-in 0.5s;
+    transform: scale(1.02);
+}
