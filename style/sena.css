@@ -164,10 +164,10 @@
 #notes .card .main-card {
     text-align: center;
     cursor: pointer;
-    padding: 50px 20px 50px 20px ;
+    padding: 60px 20px 60px 20px ;
     max-height: 500px;
     align-content: center;
-    box-shadow: 0 0 6px 0px rgb(215, 213, 213);
+    box-shadow: 0 0 6px 0px rgb(200, 185, 185);
 }
 
 #notes .main-card h4 {
